@@ -8,6 +8,7 @@ node {
     }
 	stage('Build project'){
 	    sh 'mvn clean install'
+		sh 'echo "Hello Anmol Jain"'
 	}
 
     stage('Build image') {
